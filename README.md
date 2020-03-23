@@ -5,7 +5,7 @@ My Second SwiftUI App
 + extracting subview (cmd + click -> extract subview)
 + `RoundedRectangle(cornerRadius: 25)`
   - `.fill(Color.white)` preferable to use on __Shapes__ instead of `.foregroundColor()`
-  - `.frame(height: 50)` if arguments optional you can leave them
+  - `.frame(height: 50)` if exist optional arguments you can leave them
   - `.overlay(Text("Hello"))` you can use it instead of `ZStack`
   - `.padding(.all)` just cool things
   
@@ -18,7 +18,7 @@ My Second SwiftUI App
   - ```
     .overlay(
         Circle()
-            .stroke(Color.white, lineWidth: 5) adds border for a view
+            .stroke(Color.white, lineWidth: 5) // adds border for a view
     )
     ```
 + `Divider()`
