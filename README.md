@@ -14,7 +14,7 @@ My Second SwiftUI App
   
 + `ZStack`
 + `Image("billie")`
-  - `.clipShape(Circle())` to round image
+  - `.clipShape(Circle())` rounds image
   - ```
     .overlay(
         Circle()
